@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val btnHello:AppCompatButton = findViewById(R.id.btnHello)
         val etName:AppCompatEditText = findViewById(R.id.etName)
+
         btnHello.setOnClickListener {
             val name = etName.text.toString()
             Log.i("Test", "Botón pulsado")
